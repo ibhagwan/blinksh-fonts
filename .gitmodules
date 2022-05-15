@@ -1,0 +1,6 @@
+[submodule "SF-Mono-Nerd-Font"]
+	path = SF-Mono-Nerd-Font
+	url = https://github.com/epk/SF-Mono-Nerd-Font
+[submodule "SFMono-Nerd-Font-Ligaturized"]
+	path = SFMono-Nerd-Font-Ligaturized
+	url = https://github.com/shaunsingh/SFMono-Nerd-Font-Ligaturized
