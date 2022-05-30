@@ -14,3 +14,6 @@ Installation instructions:
       https://github.com/ibhagwan/blinksh-fonts/raw/main/SFMonoNerdFont.css
     + For ligaturized use URL
       https://github.com/ibhagwan/blinksh-fonts/raw/main/LigaSFMonoNerdFont.css
+
+<img src="https://github.com/ibhagwan/blinksh-fonts/raw/main/ligatures.png"/>
+<!--<img src="https://github.com/ibhagwan/blinksh-fonts/raw/main/ligatures.png" width="300" height="240" />-->
