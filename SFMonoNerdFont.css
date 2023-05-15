@@ -2,21 +2,21 @@
     font-family: "SFMono Nerd Font";
     font-style: normal;
     font-weight: 200;
-    src: url('https://github.com/epk/SF-Mono-Nerd-Font/raw/master/SFMono%20Light%20Nerd%20Font%20Complete.otf') format('truetype');
+    src: url('https://github.com/ibhagwan/blinksh-fonts/raw/main/build/SFMonoNerdFont-Light.otf') format('truetype');
 }
 @font-face {
     font-family: "SFMono Nerd Font";
     font-style: normal;
     font-weight: 400;
-    src: url('https://github.com/epk/SF-Mono-Nerd-Font/raw/master/SFMono%20Regular%20Nerd%20Font%20Complete.otf') format('truetype');
+    src: url('https://github.com/ibhagwan/blinksh-fonts/raw/main/build/SFMonoNerdFont-Regular.otf') format('truetype');
 }
 @font-face {
     font-family: "SFMono Nerd Font";
     font-weight: 600;
-    src: url('https://github.com/epk/SF-Mono-Nerd-Font/raw/master/SFMono%20Semibold%20Nerd%20Font%20Complete.otf') format('truetype');
+    src: url('https://github.com/ibhagwan/blinksh-fonts/raw/main/build/SFMonoNerdFont-SemiBold.otf') format('truetype');
 }
 @font-face {
     font-family: "SFMono Nerd Font";
     font-weight: 800;
-    src: url('https://github.com/epk/SF-Mono-Nerd-Font/raw/master/SFMono%20Bold%20Nerd%20Font%20Complete.otf') format('truetype');
+    src: url('https://github.com/ibhagwan/blinksh-fonts/raw/main/build/SFMonoNerdFont-Bold.otf') format('truetype');
 }

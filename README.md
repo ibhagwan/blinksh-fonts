@@ -1,8 +1,8 @@
-Font collection for [blink.sh](https://blink.sh) iOS terminal.
+## Apple's SF Mono Fonts for [blink.sh](https://blink.sh) iOS terminal.
 
-- Apple's SF Mono (Nerd Font patched)
-  + Non-ligaturized from https://github.com/epk/SF-Mono-Nerd-Font
-  + Ligaturized from https://github.com/shaunsingh/SFMono-Nerd-Font-Ligaturized
+- Non-ligaturized (patched using
+  [nerd fonts patcher](https://github.com/ryanoasis/nerd-fonts#font-patcher)
+- Ligaturized from https://github.com/shaunsingh/SFMono-Nerd-Font-Ligaturized
 
 
 Installation instructions:
