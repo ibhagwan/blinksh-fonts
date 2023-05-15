@@ -10,8 +10,10 @@ Installation instructions:
 - Open blink.sh terminal and run `config<CR>`
 - Go to Appearence -> Add New Font
 - Set Font Name
-    + For non-ligaturized use URL
+    + For non-ligaturized (double-width glyphs) use URL
       https://github.com/ibhagwan/blinksh-fonts/raw/main/SFMonoNerdFont.css
+    + For non-ligaturized (single-width glyphs) use URL
+      https://github.com/ibhagwan/blinksh-fonts/raw/main/SFMonoNerdFontMono.css
     + For ligaturized use URL
       https://github.com/ibhagwan/blinksh-fonts/raw/main/LigaSFMonoNerdFont.css
 

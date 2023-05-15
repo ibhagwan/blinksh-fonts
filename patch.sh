@@ -21,7 +21,6 @@ BASEDIR=$(cd "$(dirname "$0")" ; pwd -P)
 
 # Reset build dir
 mkdir -p ${BASEDIR}/build
-rm -f ${BASEDIR}/build/*
 
 echo "Using ${TEMPDIR}"
 mkdir -p ${TEMPDIR}
@@ -40,12 +39,16 @@ curl --silent -LO "https://devimages-cdn.apple.com/design/resources/download/SF-
 # Build the fonts
 for font in Library/Fonts/*; do
     echo "Patching ${font}"
-    ./font-patcher --complete ${font}
+    if [ -n ${1+x} ] && [ ${1:-} = "mono" ]; then
+        ./font-patcher --complete --use-single-width-glyphs ${font}
+    else
+        ./font-patcher --complete ${font}
+    fi
 done
 
 # Copy the fonts to build dir
 chmod a-x *.otf
-cp *.otf ${BASEDIR}/build
+cp -f *.otf ${BASEDIR}/build
 
 # Cleanup
 rm -rf ${TEMPDIR}

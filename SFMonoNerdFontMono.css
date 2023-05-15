@@ -1,0 +1,22 @@
+@font-face {
+    font-family: "SFMono Nerd Font";
+    font-style: normal;
+    font-weight: 200;
+    src: url('https://github.com/ibhagwan/blinksh-fonts/raw/main/build/SFMonoNerdFontMono-Light.otf') format('truetype');
+}
+@font-face {
+    font-family: "SFMono Nerd Font";
+    font-style: normal;
+    font-weight: 400;
+    src: url('https://github.com/ibhagwan/blinksh-fonts/raw/main/build/SFMonoNerdFontMono-Regular.otf') format('truetype');
+}
+@font-face {
+    font-family: "SFMono Nerd Font";
+    font-weight: 600;
+    src: url('https://github.com/ibhagwan/blinksh-fonts/raw/main/build/SFMonoNerdFontMono-SemiBold.otf') format('truetype');
+}
+@font-face {
+    font-family: "SFMono Nerd Font";
+    font-weight: 800;
+    src: url('https://github.com/ibhagwan/blinksh-fonts/raw/main/build/SFMonoNerdFontMono-Bold.otf') format('truetype');
+}
